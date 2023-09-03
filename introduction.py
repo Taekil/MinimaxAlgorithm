@@ -118,7 +118,44 @@ def evaluate(b):
 """
 purpose of evaluation function.
 
+optimization: assigning a numerical value to each potential solution, 
+representing how well it satisties the optimization cirteria. The goal is 
+to find the sollution with the highest(or lowest) evaluation score, depedning 
+on weather maximizing or minmizing the objective. 
+
+machine learning: measuring the performance of a model on a dataset. Common
+Evaluation metrics include accracy, precision, recall, F1-score, mean squared
+error, etc. These metric help access how well the model is generalizing and 
+making accurate predictions. 
+
+Game Playing: the quality of a game state or position. 
+
+Evolutionary Algorithms: genetic algorithms, an evaluation function determines
+the fitness of individual solutions within a population. Solutions with higher
+fitness scores are more likely to be selected for repproduction and crossover, 
+simulating the process of natural selection to find better solutions over time. 
+
+Feature selection: feasuter selection tasks, assess the improtant or relevance
+of difference features in a dataset. 
+
+Natural Language Processing(NLP): an evaluation function can be used to measure the 
+quality of generated text.
+
+NLP - Machine Translation, Text summarization, Text generation, Question Answering
+Named Entity Recognition, sentiment analysis, Dependency parsing. 
 
 difference between evaluation function and heuristic funcntion. 
 
+evaluation function - assigning a numerical value to a solution, candidate, 
+or state based on predefined criteria or objectives. This function provides
+a quantitative measure of the quality, fitness, or performance of the solution. 
+
+heuristic - general solving strategy or rule of thumb that helps guide the search
+for a solution in situations where finding an optimal solution is difficult or
+computationally expensive. Heuristics are often used to speed up the search 
+process by making informed guesses about the most promising paths or solutions. 
+They are not always perfect and can lead to suboptimal solutions, but they are 
+efficient and can work well in practice. 
+
+In some cases, a heuristic might involve utilizing an evaluation funciton. 
 """
